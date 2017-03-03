@@ -1,27 +1,21 @@
 /*
-*  Some simple styles for the site
+*  Some simple styles for the jolly miller cafe website.
+*  Author: Robert Parle, contact at: newrobertparle@hotmail.co.uk
 */
 
-.border-bottom {
-  border-bottom: solid #ff0000;
-}
 
-/*.active {
-  border-bottom: solid #ff0000;
-}
-*/
 * {
   font-family: Tahoma;
 }
 
-body {
-  font-family: Tahoma;
+html, body {
+  height: 100%;
 }
 
-#wrapper {
+#wrap {
   min-height: 100%;
-  position: relative;
 }
+
 
 .navbar-default {
   background-color: #082581;
@@ -122,4 +116,9 @@ footer {
 
 .contact {
   list-style-type: none;
+}
+
+
+.border-bottom {
+  border-bottom: solid #ff0000;
 }
